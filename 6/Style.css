@@ -1,0 +1,136 @@
+* {
+    font-family: sans-serif;
+    user-select: none;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: url(mohamed-ahsan-E4T0duYRMBc-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.form {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0, 0.8);
+    border-radius: 20px;
+    width: 300px;
+    height: 350px;
+    padding-right: 40px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+
+}
+
+.nn {
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+    outline: none;
+    background: transparent;
+    border: none;
+    border-bottom: white 1px solid;
+    font-size: 18px;
+    margin-left: 30px;
+    color: white;
+    transition: border 0.5s;
+    border-radius: 20px;
+    padding-left: 6px;
+
+}
+
+.nn:hover {
+    border-bottom: 4px white solid;
+}
+
+.nn:active {
+    border-bottom-color: red;
+}
+
+.in {
+    width:185px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.icon {
+    position: absolute;
+    color: white;
+    background-color: #ff0000;
+    width: 50px;
+    height: 40px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    padding-top: 20px;
+
+    text-align: center;
+    top: -10%;
+    left: 35%;
+    border-radius: 75px;
+    transition: top 0.6s;
+    cursor: pointer;
+
+
+
+}
+
+.icon:hover {
+    top: -16%;
+
+
+
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    background-color: #ff0000;
+    font-family: sans-serif;
+    transition: opacity 0.7s;
+    transition: 0.3s;
+
+
+}
+
+.btn:hover {
+    opacity: 0.7;
+
+
+}
+
+.btn:active {
+    border-color: white;
+
+    background-color: #c10606;
+    border-style: solid;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+
+
+}
+
+.ico {
+    position: absolute;
+    color: white;
+    padding-left: 5px;
+}
